@@ -108,11 +108,11 @@ function touchEnded(){
 
 function openLink(){
   if (storyCounter == 5){
-    window.open("https://jmonk603.github.io/DAndDARWinDrag/");
+    window.open("https://jmonk603.github.io/DandDARWinDrag/");
     window.location.href = ('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
   }
   if (storyCounter == 8){
-    window.open("https://jmonk603.github.io/DAndDARLoseDrag/");
+    window.open("https://jmonk603.github.io/DandDARLoseDrag/");
     window.location.href = ('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
   }
 }
