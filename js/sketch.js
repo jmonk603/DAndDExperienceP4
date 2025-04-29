@@ -107,7 +107,14 @@ function touchEnded(){
 }
 
 function openLink(){
-  window.location.href = ('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+  if (storyCounter == 5){
+    window.open("https://jmonk603.github.io/DAndDARWinDrag/");
+    window.location.href = ('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+  }
+  if (storyCounter == 8){
+    window.open("https://jmonk603.github.io/DAndDARLoseDrag/");
+    window.location.href = ('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+  }
 }
 
 function rolled(){
